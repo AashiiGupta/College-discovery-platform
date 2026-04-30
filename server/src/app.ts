@@ -14,7 +14,7 @@ const app = express();
 // CORS
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://college-discovery-platform-pied.vercel.app",
+    origin: process.env.CLIENT_URL || "https://college-discovery-platform-nddxuxd6-aashiguptas-projects.vercel.app",
     credentials: true,
   })
 );
